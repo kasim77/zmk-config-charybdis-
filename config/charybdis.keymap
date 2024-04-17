@@ -68,7 +68,7 @@
 
         ToNumpad {
             bindings = <&to 6>;
-            key-positions = <24 14>;
+            key-positions = <20 21>;
         };
 
         Tomouse {
