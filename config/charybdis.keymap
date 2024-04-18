@@ -126,10 +126,10 @@
         Base {
             label = "Base";
             bindings = <
-&kp Q       &kp W      &kp E      &kp R         &kp T          &kp Y     &kp U     &kp I         &kp O           &kp P
-&kp A       &kp S      &kp D      &ltq 3 F      &kp G          &kp H     &kp J     &kp K         &kp L           &kp SEMI
-&kp Z       &kp X      &kp C      &kp V         &kp B          &ltq 2 N  &ltq 1 M  &kp COMMA     &kp DOT         &kp FSLH
-&ltq 4 TAB  &kp RCTRL  &kp LCTRL  &ltq 1 SPACE  &kp BACKSPACE                      &ltq 2 SPACE  &kp LEFT_SHIFT  &kp ENTER
+&kp Q         &kp W      &kp E         &kp R          &kp T       &kp Y     &kp U     &kp I         &kp O           &kp P
+&kp A         &kp S      &kp D         &ltq 3 F       &kp G       &kp H     &kp J     &kp K         &kp L           &kp SEMI
+&kp Z         &kp X      &kp C         &kp V          &kp B       &ltq 2 N  &ltq 1 M  &kp COMMA     &kp DOT         &kp FSLH
+&kp LEFT_ALT  &kp RCTRL  &ltq 1 SPACE  &kp BACKSPACE  &ltq 4 TAB                      &ltq 2 SPACE  &kp LEFT_SHIFT  &kp ENTER
             >;
         };
 
@@ -177,7 +177,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &none   &trans  &mkp LCLK  &mkp RCLK  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &mkp MCLK  &trans     &trans  &trans
-&trans  &trans  &mo 1   &mo 2   &trans                     &trans     &trans  &to 0
+&to 0   &trans  &trans  &trans  &trans                     &trans     &trans  &trans
             >;
         };
 
@@ -186,7 +186,7 @@
 &trans  &trans  &trans  &trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &kp N1  &kp N2  &kp N3  &kp N0  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &to 0
+&to 0   &trans  &trans  &trans  &trans                  &trans  &trans  &trans
             >;
         };
     };
